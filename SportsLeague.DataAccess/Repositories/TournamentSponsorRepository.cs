@@ -34,4 +34,4 @@ public class TournamentSponsorRepository : GenericRepository<TournamentSponsor>,
             .Include(ts => ts.Tournament)
             .ToListAsync();
     }
-}
+}       
